@@ -1,0 +1,16 @@
+export const IconAssets={
+   msg:require('../../images/massage.png'),
+   user:require('../../images/profile_active.png'),
+   logo:require('../../images/vivup_transparent.png'),
+   award2022:require('../../images/award2022.png'),
+   vivup_circle:require('../../images/vivup_circle.jpg'),
+   Touchwood:require('../../images/Touchwood.webp'),
+   nhs:require('../../images/nhs.webp'),
+   P_PS:require('../../images/P&PS.webp'),
+   MtoM:require('../../images/MtoM.webp'),
+   women:require('../../images/Woman.webp'),
+   tick:require('../../images/tick.png'),
+   Relax :require('../../images/Relax.webp'),
+   menu :require('../../images/menu.png'),
+   close :require('../../images/close.png'),
+}

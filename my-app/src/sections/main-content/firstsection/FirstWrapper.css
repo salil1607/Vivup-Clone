@@ -1,0 +1,74 @@
+/* Container styling */
+.first-wrapper-container {
+    position: relative; /* Ensure pseudo-element is positioned relative to this container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #35185f, #0b7eb0);
+    background-color: #35185f;
+    padding: 5vw 10vw;
+  }
+  
+  /* Pseudo-element for the web effect */
+
+  
+  /* Content wrapper */
+  .first-wrapper-content {
+    flex: 1;
+    max-width: 50%;
+    color: #fff;
+  }
+  
+  /* Heading style */
+  .first-wrapper-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 90%;
+  }
+  
+  /* Paragraph style */
+  .first-wrapper-content p {
+    font-size: 1rem;
+    width: 90%;
+    margin: 2.5vw 0;
+  }
+  
+  /* Award image style */
+  .award-image {
+    width: 80%;
+    height: auto;
+  }
+  
+  /* Button wrapper style */
+  .button-wrapper {
+    margin: 2.5vw 0vw;
+   
+  }
+  
+  /* Button style */
+  .button-wrapper button {
+    padding: 1vw 2vw;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+  }
+  
+  /* Login text style */
+  .login-text {
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+  }
+  
+  /* Image wrapper style */
+  .image-wrapper {
+    max-width: 50%;
+  }
+  
+  /* Vivup image style */
+  .vivup-image {
+    width: 100%;
+    height: auto;
+  }
+  

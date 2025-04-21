@@ -1,0 +1,67 @@
+/* UpperNavbar.css */
+.upper_navbar {
+  flex: 1;
+    background-color: var(--base-color);
+    height: 40px;
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .upper_navbar__section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .upper_navbar__text-section {
+    flex: 0.4;
+    justify-content: space-between;
+    margin: 0 100px;
+  }
+  
+  .upper_navbar__empty-section {
+    flex: 0.35;
+  }
+  
+  .upper_navbar__image-text-section {
+    flex: 0.25;
+    justify-content: space-between;
+    margin: 0 70px;
+  }
+  
+  .upper_navbar__text {
+    color: var(--white-color);
+    font-size: 15px;
+  }
+  
+  .upper_navbar__image-text-item {
+    display: flex;
+    align-items: center;
+
+  }
+  
+
+  /* @media (min-width: 1200px) {
+    .upper_navbar__text-section {
+      margin: 0 100px;
+    }
+  
+    .upper_navbar__image-text-section {
+      margin: 0 70px;
+    }
+  } */
+
+  @media (max-width : 992px) {
+    .upper_navbar{
+      display: none;
+    }
+    .upper_navbar__text{
+      flex: 0.5;
+    }
+  }
+  @media (min-width: 992px) {
+
+    .upper_navbar__image_text_tem{
+      background-color: pink;
+      flex: 0.6;
+    }
+  }

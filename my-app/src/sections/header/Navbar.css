@@ -1,0 +1,82 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.logo img {
+  width: 120px;
+  height: 80px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin-right: 20px;
+  font-size: 15px;
+  padding: 0px 10px;
+  color: #35185F;
+  position: relative; /* Required for positioning the submenu */
+}
+
+.menu ul li:hover {
+  font-weight: bold;
+  color: #35185F;
+}
+
+.menu ul li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #35185F; /* Use the same color as the text */
+  position: absolute;
+  left: 0;
+  bottom: -55px; /* Position the underline just below the text */
+}
+
+.menu ul li:hover::after {
+  width: 100%; /* Expand the underline to full width on hover */
+}
+
+.subMenu {
+  display: none; /* Hide submenu by default */
+  position: absolute;
+  top: 100%; /* Position it below the parent item */
+  left: 0;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better visibility */
+}
+
+.menu ul li:hover .subMenu {
+  display: block; /* Show submenu on hover */
+}
+
+.subMenu li {
+  padding: 10px;
+  white-space: nowrap; /* Prevent text wrapping */
+  color: #35185F;
+}
+
+.subMenu li:hover {
+  background-color: #f0f0f0; /* Add a background color on hover for submenu items */
+}
+
+.button button {
+  padding: 15px 30px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #0b7eb0;
+  color: #fff;
+  border: none;
+}
