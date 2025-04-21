@@ -13,4 +13,5 @@ export const IconAssets={
    Relax :require('../../images/Relax.webp'),
    menu :require('../../images/menu.png'),
    close :require('../../images/close.png'),
+   WebLogo :require('../../images/logovivup.png'),
 }

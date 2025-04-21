@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  
+  .logo  {
+    width: 120px;
+    height: 80px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      background-color: lightgray;
+    }
+  
+    .logo  {
+      width: 100px;
+      height: 60px;
+    }
+  }
+  

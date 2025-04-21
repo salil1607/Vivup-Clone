@@ -1,11 +1,9 @@
 import React from 'react'
-import Header from './sections/header/Header'
-import MainContent from './sections/main-content/MainContent'
+import Login from '../src/screens/auth/login'
 const App = () => {
   return (
     <>
-    {/* <Header/> */}
-    <MainContent/>
+  <Login />
     </>
   )
 }
